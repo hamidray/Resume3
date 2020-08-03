@@ -5,6 +5,7 @@ html, body {
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Orbitron');
 body {
 	width: 100%;
+  display:flex;
   background: orange;
 	overflow-x: hidden;
 	overflow-y: auto;
@@ -28,9 +29,9 @@ span {
 }
 #header{
    position: absolute;
-	z-index: 2000;
+	z-index: 10;
 	width: 100%;
-  margin-top:20px;
+  margin-top:px;
 }
 #header h1{
 	font-size: 52px;
@@ -41,7 +42,7 @@ span {
 	text-shadow: 0px 1px 1px rgba(0,0,0,0.3);
 	padding:10px;
 	background:#001f3f;
-  margin-top:10px;
+  margin-top:0px;
 }
 #navigation {
 	margin-top: 1px;
@@ -97,7 +98,8 @@ li{
 }
 .panel:target{
 	margin-left: 0%;
-	background-color: orange;
+	background-color: olive;
+  height:400%;
 }
 one { width: 6.866%; }
 .button-1{
@@ -130,3 +132,25 @@ one { width: 6.866%; }
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
+@media (max-width: 550px){
+  .panel:target{
+	margin-left: 0%;
+	background-color: olive;
+    height:410%;
+}
+  body{
+    font-size:10px;
+    width:100%;
+}
+  .content h2{
+	font-size: 25px;
+  font-family:Orbitron;
+}
+  .content p{
+	font-size: 15px;
+}
+  .li {
+    font-size:20px;
+}
+}
+
