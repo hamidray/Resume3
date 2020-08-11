@@ -176,9 +176,7 @@ one { width: 6.866%; }
 a {
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 7em;
-  font-family: arial;
-  letter-spacing: .3em;
+   letter-spacing: .3em;
 }
 ul {
   margin: 0px;
