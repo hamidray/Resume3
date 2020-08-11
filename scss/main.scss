@@ -277,7 +277,7 @@ a.btn {
 	text-transform: uppercase;
 	-webkit-transition: box-shadow 1s ease;
 	transition: box-shadow 1s ease;
-  
+ 
 }
 
 a.btn:hover {
@@ -378,6 +378,19 @@ a.btn:hover {
   visibility: visible;
   opacity: 1;
   z-index: 3;
+}
+@media (max-width: 550px){
+  .resume {
+	padding: 20px;
+	text-align: center;
+	margin: 0 auto;
+	border-bottom: px solid #ecf0f1;
+  font-size:20px;  
+  }
+  body{
+    widows: 40px;
+  }
+  
 }
 
 
